@@ -1,0 +1,11 @@
+public class { !!  My commented program !!
+	public static void main(String[] unused) { !- main method
+		String thing = "fake !- comment "; 
+		thing = !! short comment !! "real stuff";
+		!!  long
+			comment
+		!!
+		thing = "!! " + "!! "; !- weird
+		int num = 5 / 6;
+	}
+}
